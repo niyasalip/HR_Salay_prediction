@@ -1,0 +1,31 @@
+{%extends "navbar.html"%}
+{%block content%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact view</title>
+    <link rel="stylesheet" href="..\static\css\style.css">
+    <link rel="stylesheet" href="..\static\css\w3.css">
+</head>
+<body>
+    <h2>Please contact through mail</h2><br><br>
+    <form>
+        <label>Name</label><br>
+        <input type="text" class="input1" placeholder="Enter your name" style="width:98%;"><br><br>
+        <label>Email</label><br>
+        <input type="email" class="input1" placeholder="Enter your email" style="width:98%;"><br><br>
+        <label>Name</label><br>
+        <input type="number" class="input1" placeholder="Enter your contact number" style="width:98%;"><br><br>
+        <label>Please ask your concern</label><br>
+        <textarea class="input1" rows="20" style="width:98%; height: 100px;" cols="20"></textarea><br><br>
+        <a href="#" class="navbtn" style="float: right;">Submit</a>
+    </form>
+    <footer class="w3-container w3-orange w3-padding-16 " style="width:100%">
+       <a class="w3-button w3-black w3-padding-large w3-margin-bottom" href="contact">contact</a>
+       <a class="w3-button w3-black w3-padding-large w3-margin-bottom" href="report">Reports</a>
+   </footer>  
+</body>
+</html>
+{%endblock%}
